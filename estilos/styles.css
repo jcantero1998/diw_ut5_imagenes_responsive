@@ -295,5 +295,25 @@ footer a:hover {
     padding-left: 15px;
   }
 }
+div.flex-item:hover {
+  background-color: red;
+}
+
+div.flex-item:hover {
+  background-color: red;
+}
+
+.rotate {
+  width: 80%;
+  height: 80%;
+  animation: spin 4s linear infinite;
+}
+
+@keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
 
 /*# sourceMappingURL=styles.css.map */

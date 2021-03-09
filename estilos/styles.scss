@@ -343,3 +343,15 @@ footer {
     padding-left: 15px;
   }
 }
+
+/*Animaciones*/
+div.flex-item:hover {
+  background-color: $hover;
+}
+
+.rotate {
+  width: 80%;
+  height: 80%;
+  animation:spin 4s linear infinite;
+}
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
